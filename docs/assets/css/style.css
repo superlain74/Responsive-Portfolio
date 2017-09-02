@@ -235,4 +235,74 @@ input[type=submit] {
 	cursor: pointer;
 }
 
+/*media queries*/
 
+@media screen and (max-width: 980px) {
+	.container {
+		width: 100%;
+		max-width: 768px;
+	}
+
+	.main-section {
+		max-width: 400px;
+		width: 100%;
+	}
+
+	.main-section img {
+	width: 100%;
+	margin-bottom: 20px;
+	}
+
+	.sidebar {
+	max-width: 100%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.container {
+		width: 100%;
+		max-width: 640px;
+	}
+
+	.main-section {
+		margin: 0 0 0 0;
+		width: 100%;
+		max-width: 640px;
+	}
+
+	.main-section img {
+	width: 50%;
+	}
+
+	.sidebar {
+	width: 100%
+	margin: 50px 0 0 0;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.container {
+		width: 100%;
+	}
+
+	#logo {
+	width: 100%;
+	}
+
+	nav {
+	width: 100%;
+	text-align: center;
+	}
+
+	.main-section img {
+		width: 100%;
+	}
+
+	#masthead {
+		position: static;
+	}
+
+	#main-container {
+	padding-top: 5px;
+	}
+}
